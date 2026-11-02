@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oci-cost-anomaly-detector"
+version = "0.1.0"
+description = "Offline cost-anomaly detection and budget pacing over OCI-style daily cost exports"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+oci-cost-anomaly = "oci_cost_anomaly.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
