@@ -1,0 +1,908 @@
+{
+  "daily_costs": [
+    {
+      "date": "2026-09-20",
+      "service": "compute",
+      "amount": 24.17
+    },
+    {
+      "date": "2026-09-20",
+      "service": "object-storage",
+      "amount": 5.43
+    },
+    {
+      "date": "2026-09-20",
+      "service": "networking",
+      "amount": 3.23
+    },
+    {
+      "date": "2026-09-20",
+      "service": "database",
+      "amount": 10.67
+    },
+    {
+      "date": "2026-09-21",
+      "service": "compute",
+      "amount": 24.28
+    },
+    {
+      "date": "2026-09-21",
+      "service": "object-storage",
+      "amount": 6.21
+    },
+    {
+      "date": "2026-09-21",
+      "service": "networking",
+      "amount": 3.97
+    },
+    {
+      "date": "2026-09-21",
+      "service": "database",
+      "amount": 10.5
+    },
+    {
+      "date": "2026-09-22",
+      "service": "compute",
+      "amount": 23.91
+    },
+    {
+      "date": "2026-09-22",
+      "service": "object-storage",
+      "amount": 5.44
+    },
+    {
+      "date": "2026-09-22",
+      "service": "networking",
+      "amount": 3.16
+    },
+    {
+      "date": "2026-09-22",
+      "service": "database",
+      "amount": 11.01
+    },
+    {
+      "date": "2026-09-23",
+      "service": "compute",
+      "amount": 23.43
+    },
+    {
+      "date": "2026-09-23",
+      "service": "object-storage",
+      "amount": 5.64
+    },
+    {
+      "date": "2026-09-23",
+      "service": "networking",
+      "amount": 3.68
+    },
+    {
+      "date": "2026-09-23",
+      "service": "database",
+      "amount": 11.05
+    },
+    {
+      "date": "2026-09-24",
+      "service": "compute",
+      "amount": 23.66
+    },
+    {
+      "date": "2026-09-24",
+      "service": "object-storage",
+      "amount": 6.11
+    },
+    {
+      "date": "2026-09-24",
+      "service": "networking",
+      "amount": 3.87
+    },
+    {
+      "date": "2026-09-24",
+      "service": "database",
+      "amount": 10.41
+    },
+    {
+      "date": "2026-09-25",
+      "service": "compute",
+      "amount": 24.37
+    },
+    {
+      "date": "2026-09-25",
+      "service": "object-storage",
+      "amount": 6.24
+    },
+    {
+      "date": "2026-09-25",
+      "service": "networking",
+      "amount": 3.31
+    },
+    {
+      "date": "2026-09-25",
+      "service": "database",
+      "amount": 10.59
+    },
+    {
+      "date": "2026-09-26",
+      "service": "compute",
+      "amount": 24.55
+    },
+    {
+      "date": "2026-09-26",
+      "service": "object-storage",
+      "amount": 5.8
+    },
+    {
+      "date": "2026-09-26",
+      "service": "networking",
+      "amount": 3.01
+    },
+    {
+      "date": "2026-09-26",
+      "service": "database",
+      "amount": 10.52
+    },
+    {
+      "date": "2026-09-27",
+      "service": "compute",
+      "amount": 24.42
+    },
+    {
+      "date": "2026-09-27",
+      "service": "object-storage",
+      "amount": 6.12
+    },
+    {
+      "date": "2026-09-27",
+      "service": "networking",
+      "amount": 3.87
+    },
+    {
+      "date": "2026-09-27",
+      "service": "database",
+      "amount": 11.28
+    },
+    {
+      "date": "2026-09-28",
+      "service": "compute",
+      "amount": 24.04
+    },
+    {
+      "date": "2026-09-28",
+      "service": "object-storage",
+      "amount": 6.57
+    },
+    {
+      "date": "2026-09-28",
+      "service": "networking",
+      "amount": 3.35
+    },
+    {
+      "date": "2026-09-28",
+      "service": "database",
+      "amount": 11.06
+    },
+    {
+      "date": "2026-09-29",
+      "service": "compute",
+      "amount": 24.4
+    },
+    {
+      "date": "2026-09-29",
+      "service": "object-storage",
+      "amount": 6.14
+    },
+    {
+      "date": "2026-09-29",
+      "service": "networking",
+      "amount": 3.93
+    },
+    {
+      "date": "2026-09-29",
+      "service": "database",
+      "amount": 11.09
+    },
+    {
+      "date": "2026-09-30",
+      "service": "compute",
+      "amount": 24.25
+    },
+    {
+      "date": "2026-09-30",
+      "service": "object-storage",
+      "amount": 5.45
+    },
+    {
+      "date": "2026-09-30",
+      "service": "networking",
+      "amount": 3.17
+    },
+    {
+      "date": "2026-09-30",
+      "service": "database",
+      "amount": 10.75
+    },
+    {
+      "date": "2026-10-01",
+      "service": "compute",
+      "amount": 23.5
+    },
+    {
+      "date": "2026-10-01",
+      "service": "object-storage",
+      "amount": 5.68
+    },
+    {
+      "date": "2026-10-01",
+      "service": "networking",
+      "amount": 3.02
+    },
+    {
+      "date": "2026-10-01",
+      "service": "database",
+      "amount": 10.73
+    },
+    {
+      "date": "2026-10-02",
+      "service": "compute",
+      "amount": 24.16
+    },
+    {
+      "date": "2026-10-02",
+      "service": "object-storage",
+      "amount": 5.84
+    },
+    {
+      "date": "2026-10-02",
+      "service": "networking",
+      "amount": 3.34
+    },
+    {
+      "date": "2026-10-02",
+      "service": "database",
+      "amount": 10.65
+    },
+    {
+      "date": "2026-10-03",
+      "service": "compute",
+      "amount": 23.72
+    },
+    {
+      "date": "2026-10-03",
+      "service": "object-storage",
+      "amount": 6.52
+    },
+    {
+      "date": "2026-10-03",
+      "service": "networking",
+      "amount": 3.68
+    },
+    {
+      "date": "2026-10-03",
+      "service": "database",
+      "amount": 11.13
+    },
+    {
+      "date": "2026-10-04",
+      "service": "compute",
+      "amount": 23.61
+    },
+    {
+      "date": "2026-10-04",
+      "service": "object-storage",
+      "amount": 6.27
+    },
+    {
+      "date": "2026-10-04",
+      "service": "networking",
+      "amount": 3.1
+    },
+    {
+      "date": "2026-10-04",
+      "service": "database",
+      "amount": 10.86
+    },
+    {
+      "date": "2026-10-05",
+      "service": "compute",
+      "amount": 24.59
+    },
+    {
+      "date": "2026-10-05",
+      "service": "object-storage",
+      "amount": 6.17
+    },
+    {
+      "date": "2026-10-05",
+      "service": "networking",
+      "amount": 3.57
+    },
+    {
+      "date": "2026-10-05",
+      "service": "database",
+      "amount": 11.22
+    },
+    {
+      "date": "2026-10-06",
+      "service": "compute",
+      "amount": 24.41
+    },
+    {
+      "date": "2026-10-06",
+      "service": "object-storage",
+      "amount": 6.33
+    },
+    {
+      "date": "2026-10-06",
+      "service": "networking",
+      "amount": 3.17
+    },
+    {
+      "date": "2026-10-06",
+      "service": "database",
+      "amount": 10.44
+    },
+    {
+      "date": "2026-10-07",
+      "service": "compute",
+      "amount": 23.78
+    },
+    {
+      "date": "2026-10-07",
+      "service": "object-storage",
+      "amount": 5.72
+    },
+    {
+      "date": "2026-10-07",
+      "service": "networking",
+      "amount": 3.15
+    },
+    {
+      "date": "2026-10-07",
+      "service": "database",
+      "amount": 11.53
+    },
+    {
+      "date": "2026-10-08",
+      "service": "compute",
+      "amount": 24.45
+    },
+    {
+      "date": "2026-10-08",
+      "service": "object-storage",
+      "amount": 5.78
+    },
+    {
+      "date": "2026-10-08",
+      "service": "networking",
+      "amount": 3.69
+    },
+    {
+      "date": "2026-10-08",
+      "service": "database",
+      "amount": 10.87
+    },
+    {
+      "date": "2026-10-09",
+      "service": "compute",
+      "amount": 24.5
+    },
+    {
+      "date": "2026-10-09",
+      "service": "object-storage",
+      "amount": 5.95
+    },
+    {
+      "date": "2026-10-09",
+      "service": "networking",
+      "amount": 3.22
+    },
+    {
+      "date": "2026-10-09",
+      "service": "database",
+      "amount": 10.7
+    },
+    {
+      "date": "2026-10-10",
+      "service": "compute",
+      "amount": 24.07
+    },
+    {
+      "date": "2026-10-10",
+      "service": "object-storage",
+      "amount": 5.72
+    },
+    {
+      "date": "2026-10-10",
+      "service": "networking",
+      "amount": 3.6
+    },
+    {
+      "date": "2026-10-10",
+      "service": "database",
+      "amount": 11.48
+    },
+    {
+      "date": "2026-10-11",
+      "service": "compute",
+      "amount": 23.88
+    },
+    {
+      "date": "2026-10-11",
+      "service": "object-storage",
+      "amount": 5.66
+    },
+    {
+      "date": "2026-10-11",
+      "service": "networking",
+      "amount": 4.1
+    },
+    {
+      "date": "2026-10-11",
+      "service": "database",
+      "amount": 11.01
+    },
+    {
+      "date": "2026-10-12",
+      "service": "compute",
+      "amount": 23.51
+    },
+    {
+      "date": "2026-10-12",
+      "service": "object-storage",
+      "amount": 5.46
+    },
+    {
+      "date": "2026-10-12",
+      "service": "networking",
+      "amount": 3.03
+    },
+    {
+      "date": "2026-10-12",
+      "service": "database",
+      "amount": 11.15
+    },
+    {
+      "date": "2026-10-13",
+      "service": "compute",
+      "amount": 24.35
+    },
+    {
+      "date": "2026-10-13",
+      "service": "object-storage",
+      "amount": 5.91
+    },
+    {
+      "date": "2026-10-13",
+      "service": "networking",
+      "amount": 2.98
+    },
+    {
+      "date": "2026-10-13",
+      "service": "database",
+      "amount": 10.86
+    },
+    {
+      "date": "2026-10-14",
+      "service": "compute",
+      "amount": 24.6
+    },
+    {
+      "date": "2026-10-14",
+      "service": "object-storage",
+      "amount": 6.03
+    },
+    {
+      "date": "2026-10-14",
+      "service": "networking",
+      "amount": 4.07
+    },
+    {
+      "date": "2026-10-14",
+      "service": "database",
+      "amount": 11.43
+    },
+    {
+      "date": "2026-10-15",
+      "service": "compute",
+      "amount": 23.41
+    },
+    {
+      "date": "2026-10-15",
+      "service": "object-storage",
+      "amount": 6.26
+    },
+    {
+      "date": "2026-10-15",
+      "service": "networking",
+      "amount": 0.4
+    },
+    {
+      "date": "2026-10-15",
+      "service": "database",
+      "amount": 11.04
+    },
+    {
+      "date": "2026-10-16",
+      "service": "compute",
+      "amount": 23.72
+    },
+    {
+      "date": "2026-10-16",
+      "service": "object-storage",
+      "amount": 6.17
+    },
+    {
+      "date": "2026-10-16",
+      "service": "networking",
+      "amount": 3.03
+    },
+    {
+      "date": "2026-10-16",
+      "service": "database",
+      "amount": 10.92
+    },
+    {
+      "date": "2026-10-17",
+      "service": "compute",
+      "amount": 23.94
+    },
+    {
+      "date": "2026-10-17",
+      "service": "object-storage",
+      "amount": 6.54
+    },
+    {
+      "date": "2026-10-17",
+      "service": "networking",
+      "amount": 3.95
+    },
+    {
+      "date": "2026-10-17",
+      "service": "database",
+      "amount": 10.72
+    },
+    {
+      "date": "2026-10-18",
+      "service": "compute",
+      "amount": 24.0
+    },
+    {
+      "date": "2026-10-18",
+      "service": "object-storage",
+      "amount": 5.61
+    },
+    {
+      "date": "2026-10-18",
+      "service": "networking",
+      "amount": 4.0
+    },
+    {
+      "date": "2026-10-18",
+      "service": "database",
+      "amount": 11.44
+    },
+    {
+      "date": "2026-10-19",
+      "service": "compute",
+      "amount": 23.76
+    },
+    {
+      "date": "2026-10-19",
+      "service": "object-storage",
+      "amount": 6.17
+    },
+    {
+      "date": "2026-10-19",
+      "service": "networking",
+      "amount": 3.63
+    },
+    {
+      "date": "2026-10-19",
+      "service": "database",
+      "amount": 10.58
+    },
+    {
+      "date": "2026-10-20",
+      "service": "compute",
+      "amount": 24.32
+    },
+    {
+      "date": "2026-10-20",
+      "service": "object-storage",
+      "amount": 6.05
+    },
+    {
+      "date": "2026-10-20",
+      "service": "networking",
+      "amount": 3.83
+    },
+    {
+      "date": "2026-10-20",
+      "service": "database",
+      "amount": 11.04
+    },
+    {
+      "date": "2026-10-21",
+      "service": "compute",
+      "amount": 71.4
+    },
+    {
+      "date": "2026-10-21",
+      "service": "object-storage",
+      "amount": 5.79
+    },
+    {
+      "date": "2026-10-21",
+      "service": "networking",
+      "amount": 2.92
+    },
+    {
+      "date": "2026-10-21",
+      "service": "database",
+      "amount": 11.51
+    },
+    {
+      "date": "2026-10-22",
+      "service": "compute",
+      "amount": 24.45
+    },
+    {
+      "date": "2026-10-22",
+      "service": "object-storage",
+      "amount": 6.4
+    },
+    {
+      "date": "2026-10-22",
+      "service": "networking",
+      "amount": 3.27
+    },
+    {
+      "date": "2026-10-22",
+      "service": "database",
+      "amount": 10.47
+    },
+    {
+      "date": "2026-10-23",
+      "service": "compute",
+      "amount": 24.45
+    },
+    {
+      "date": "2026-10-23",
+      "service": "object-storage",
+      "amount": 6.54
+    },
+    {
+      "date": "2026-10-23",
+      "service": "networking",
+      "amount": 3.0
+    },
+    {
+      "date": "2026-10-23",
+      "service": "database",
+      "amount": 10.98
+    },
+    {
+      "date": "2026-10-24",
+      "service": "compute",
+      "amount": 23.48
+    },
+    {
+      "date": "2026-10-24",
+      "service": "object-storage",
+      "amount": 6.31
+    },
+    {
+      "date": "2026-10-24",
+      "service": "networking",
+      "amount": 3.82
+    },
+    {
+      "date": "2026-10-24",
+      "service": "database",
+      "amount": 10.55
+    },
+    {
+      "date": "2026-10-25",
+      "service": "compute",
+      "amount": 23.97
+    },
+    {
+      "date": "2026-10-25",
+      "service": "object-storage",
+      "amount": 6.06
+    },
+    {
+      "date": "2026-10-25",
+      "service": "networking",
+      "amount": 3.22
+    },
+    {
+      "date": "2026-10-25",
+      "service": "database",
+      "amount": 11.45
+    },
+    {
+      "date": "2026-10-26",
+      "service": "compute",
+      "amount": 23.91
+    },
+    {
+      "date": "2026-10-26",
+      "service": "object-storage",
+      "amount": 5.65
+    },
+    {
+      "date": "2026-10-26",
+      "service": "networking",
+      "amount": 3.55
+    },
+    {
+      "date": "2026-10-26",
+      "service": "database",
+      "amount": 11.28
+    },
+    {
+      "date": "2026-10-27",
+      "service": "compute",
+      "amount": 23.64
+    },
+    {
+      "date": "2026-10-27",
+      "service": "object-storage",
+      "amount": 5.77
+    },
+    {
+      "date": "2026-10-27",
+      "service": "networking",
+      "amount": 4.09
+    },
+    {
+      "date": "2026-10-27",
+      "service": "database",
+      "amount": 11.18
+    },
+    {
+      "date": "2026-10-28",
+      "service": "compute",
+      "amount": 23.93
+    },
+    {
+      "date": "2026-10-28",
+      "service": "object-storage",
+      "amount": 19.8
+    },
+    {
+      "date": "2026-10-28",
+      "service": "networking",
+      "amount": 3.05
+    },
+    {
+      "date": "2026-10-28",
+      "service": "database",
+      "amount": 10.67
+    },
+    {
+      "date": "2026-10-29",
+      "service": "compute",
+      "amount": 23.81
+    },
+    {
+      "date": "2026-10-29",
+      "service": "object-storage",
+      "amount": 6.11
+    },
+    {
+      "date": "2026-10-29",
+      "service": "networking",
+      "amount": 3.18
+    },
+    {
+      "date": "2026-10-29",
+      "service": "database",
+      "amount": 10.66
+    },
+    {
+      "date": "2026-10-30",
+      "service": "compute",
+      "amount": 23.49
+    },
+    {
+      "date": "2026-10-30",
+      "service": "object-storage",
+      "amount": 6.16
+    },
+    {
+      "date": "2026-10-30",
+      "service": "networking",
+      "amount": 3.17
+    },
+    {
+      "date": "2026-10-30",
+      "service": "database",
+      "amount": 11.49
+    },
+    {
+      "date": "2026-10-31",
+      "service": "compute",
+      "amount": 24.43
+    },
+    {
+      "date": "2026-10-31",
+      "service": "object-storage",
+      "amount": 5.49
+    },
+    {
+      "date": "2026-10-31",
+      "service": "networking",
+      "amount": 3.19
+    },
+    {
+      "date": "2026-10-31",
+      "service": "database",
+      "amount": 11.2
+    },
+    {
+      "date": "2026-11-01",
+      "service": "compute",
+      "amount": 23.66
+    },
+    {
+      "date": "2026-11-01",
+      "service": "object-storage",
+      "amount": 5.56
+    },
+    {
+      "date": "2026-11-01",
+      "service": "networking",
+      "amount": 4.02
+    },
+    {
+      "date": "2026-11-01",
+      "service": "database",
+      "amount": 11.09
+    },
+    {
+      "date": "2026-11-02",
+      "service": "compute",
+      "amount": 23.97
+    },
+    {
+      "date": "2026-11-02",
+      "service": "object-storage",
+      "amount": 6.34
+    },
+    {
+      "date": "2026-11-02",
+      "service": "networking",
+      "amount": 3.87
+    },
+    {
+      "date": "2026-11-02",
+      "service": "database",
+      "amount": 10.63
+    },
+    {
+      "date": "2026-11-03",
+      "service": "compute",
+      "amount": 23.52
+    },
+    {
+      "date": "2026-11-03",
+      "service": "object-storage",
+      "amount": 5.92
+    },
+    {
+      "date": "2026-11-03",
+      "service": "networking",
+      "amount": 3.41
+    },
+    {
+      "date": "2026-11-03",
+      "service": "database",
+      "amount": 10.96
+    }
+  ],
+  "budget": {
+    "monthly_amount": 1400.0,
+    "month": "2026-10"
+  }
+}
