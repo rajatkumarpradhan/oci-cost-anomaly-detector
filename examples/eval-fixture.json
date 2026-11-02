@@ -1,0 +1,423 @@
+{
+  "cases": [
+    {
+      "name": "stable service never fires",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-11",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-17",
+          "amount": 10.4
+        },
+        {
+          "date": "2026-10-18",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 10.2
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 10.4
+        }
+      ],
+      "expect_rules": []
+    },
+    {
+      "name": "single spike fires once at the right date",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-11",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-17",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-18",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 10.0
+        }
+      ],
+      "expect_rules": [
+        "ANOM001",
+        "ANOM002"
+      ],
+      "expect_date": "2026-10-15"
+    },
+    {
+      "name": "tiny absolute noise below the floor never fires",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-11",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 0.9
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-17",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-18",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 0.1
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 0.1
+        }
+      ],
+      "expect_rules": []
+    },
+    {
+      "name": "short baseline never guesses (z-rule stays quiet, small rise below floors)",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 12.0
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 10.0
+        }
+      ],
+      "expect_rules": []
+    },
+    {
+      "name": "budget pace breach on flat high spend",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 90.0
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 90.0
+        }
+      ],
+      "budget": {
+        "monthly_amount": 1500.0,
+        "month": "2026-10"
+      },
+      "expect_rules": [
+        "BUDG001"
+      ]
+    },
+    {
+      "name": "on-budget pace stays quiet",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 40.0
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 40.0
+        }
+      ],
+      "budget": {
+        "monthly_amount": 1500.0,
+        "month": "2026-10"
+      },
+      "expect_rules": []
+    },
+    {
+      "name": "sudden jump on short baseline still fires the spike rule",
+      "points": [
+        {
+          "date": "2026-10-01",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-03",
+          "amount": 10.0
+        },
+        {
+          "date": "2026-10-04",
+          "amount": 50.0
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 10.0
+        }
+      ],
+      "expect_rules": [
+        "ANOM002"
+      ],
+      "expect_date": "2026-10-04"
+    }
+  ]
+}
